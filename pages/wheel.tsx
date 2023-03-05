@@ -1,13 +1,11 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import Image from 'next/image'
-import Button from '../components/Button'
 
 const Home: NextPage = () => {
   return (
   <div className="flex h-screen justify-center items-center font-display">
-    <a href='/'>
-      <Image src={'/../public/Options.png'} width={1280} height={832} alt={'Image of the options page'} ></Image>
+    <a href='/result'>
+      <Image src={'/../public/Wheel.png'} width={1269} height={778} alt={'Image of the wheel page'} ></Image>
     </a>
   </div>
 

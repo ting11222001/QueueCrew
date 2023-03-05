@@ -10,8 +10,8 @@ const Home: NextPage = () => {
       <h1 className="text-5xl">What type of decision are you making?</h1>
 
       <div className="flex justify-center">
-        <Button name="BIG" background="#FCC931" link="/choose"/>
-        <Button name="small" background="#8870FF" link="/choose"/>
+        <Button name="BIG" background="#FCC931" link="/choose_big"/>
+        <Button name="small" background="#8870FF" link="/choose_small"/>
       </div>
 
     </div>
