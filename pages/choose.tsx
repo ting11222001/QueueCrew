@@ -6,7 +6,9 @@ import Button from '../components/Button'
 const Home: NextPage = () => {
   return (
   <div className="flex h-screen justify-center items-center font-display">
-    <p>Can we get much higher</p>
+    <a href='/'>
+      <Image src={'/../public/Options.png'} width={1280} height={832} alt={'Image of the options page'} ></Image>
+    </a>
   </div>
 
   )
